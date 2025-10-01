@@ -9,5 +9,5 @@ Percobaan 2”
 jawab:
 1. berfungsi untuk menghentikan eksekusi sebuah blok switch secara paksa.
 2. Sebagai fallback / alternatif terakhir
-3. 
-4.
+3. sudah 
+4. sudah 
