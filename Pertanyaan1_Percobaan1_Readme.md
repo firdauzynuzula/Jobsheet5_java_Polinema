@@ -14,4 +14,4 @@ Jawab :
 3. else {
         System.out.println("Registrasi ditolak. Silakan lunasi UKT terlebih dahulu");
     }
-4. 
+4. sudah
