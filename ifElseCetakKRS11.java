@@ -38,7 +38,7 @@ public class ifElseCetakKRS11 {
             System.out.println("KRS Semester 8 ditampilkan");
         }
         else {
-            System.out.println("Semester tidak valid");
+            System.out.println("Semester yang diinputkan tidak valid");
             
         }
             
