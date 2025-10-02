@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class ifCetakKRS11 {
 public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
-    System.out.println("Cetak KRS Siakad");
+    System.out.println("-----Cetak KRS Siakad-----");
     System.out.println("Apakah UKT sudah lunas? (True/False): ");
     boolean uktLunas = sc.nextBoolean();
 
