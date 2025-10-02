@@ -1,8 +1,5 @@
 import java.util.Scanner;
-
-
 public class nestedUjianSkripsiNoPresensi {
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String pesan;
@@ -21,7 +18,9 @@ public class nestedUjianSkripsiNoPresensi {
             if (bimbinganP1 >= 8 && bimbinganP2 >= 4) {
                 pesan = "Semua syarat terpenuhi. Mahasiswa boleh mendaftar ujian skripsi";
             } else if (bimbinganP1 < 8 && bimbinganP2 < 4) {
-                pesan = "Gagal! Log bimbingan P1 belum mencapai 8 kali";
+                pesan = "Gagal! Log bimbingan P1 belum mencapai 8 kali dan P2 kurang dari 4 kali";
+            } else if (bimbinganP1 < 8){
+                pesan = "Gagal! Log bimbingan P2 belum mencapai 8 kali";
             } else {
                 pesan = "Gagal! Log bimbingan P2 belum mencapai 4 kali";
             }
