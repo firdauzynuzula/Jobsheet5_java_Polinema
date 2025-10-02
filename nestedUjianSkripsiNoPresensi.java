@@ -30,5 +30,7 @@ public class nestedUjianSkripsiNoPresensi {
         }
 
         System.out.println(pesan);
+
+        sc.close();
     }
 }
